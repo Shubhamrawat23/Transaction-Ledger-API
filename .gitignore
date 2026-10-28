@@ -1,0 +1,41 @@
+# =========================
+# Python Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+# NEVER commit your .env file! It contains your database password.
+.env
+.env.local
+.env.production
+
+# =========================
+# IDE and Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Databases
+# =========================
+*.log
